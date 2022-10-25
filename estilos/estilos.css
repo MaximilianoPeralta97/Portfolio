@@ -1,0 +1,115 @@
+header{
+    background-color: #ff006e;
+    padding-left: 20px;
+    height:65px;
+    color:azure;
+    display:flex;
+    align-items:center;
+    padding-left: 25px;
+}
+
+body{
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+}
+.cara{
+    height:200px;
+    border-radius: 500px;
+}
+/*Justify-content define cómo el navegador distribuye 
+el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.
+flex-direction especifica cómo colocar los objetos flexibles 
+en el contenedor flexible definiendo el eje principal y la dirección (normal o al revés)*/
+.uno{
+    width:100%;
+    display:flex;
+    background-color:#1b263b;
+    justify-content:center;
+    color:azure;
+    height: calc(100vh - 65px);
+    flex-direction: row;
+
+
+}
+.caja-central{
+    margin-top:10%;
+    display:flex;
+    width:50%;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 50%;
+    overflow: hidden;
+
+}
+.caja-cara{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 40%;
+    background-color: #778da9;
+}
+.caja-presentacion{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 60%;
+    background-color:azure;
+    padding: 10px;
+    color:#1b263b;
+
+
+}
+.dos{
+    background-color:white;
+    height:700%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#0d1b2a;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tres .lista{
+    background-color:white;
+    height:700%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#0d1b2a;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+
+}
+
+.aptitudes{
+    width: 50%;
+}
+.lista-tech{
+    justify-content:space-between;
+    display:flex;
+    padding-top: 10px;
+}
+.tech{
+    width: 50px;
+    border-radius: 5px;
+}
+footer{
+    background-color:#1b263b;
+    color:azure;
+    text-align:center;
+    padding-top: 5px;
+    
+
+}
+.contacto nav a{
+    padding:5px;
+    text-decoration: none;
+     
+}
+
+
+
+    
